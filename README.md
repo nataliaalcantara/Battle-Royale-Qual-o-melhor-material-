@@ -1,0 +1,1 @@
+# Trabalho-Algoritmo-Genetico-
