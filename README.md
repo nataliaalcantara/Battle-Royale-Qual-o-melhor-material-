@@ -1,6 +1,6 @@
 # Trabalho-Algoritmo-Genetico-
 
-# Band Gap Prediction - Trabalho Final de Redes Neurais
+# Band Gap and Heat of Formation Optimization
 _Grupo: Natália Alcantara, Samira Oliveira e Geovana Bettero_
 
 Este repositório trata-se de um trabalho final feito por três estudantes da ILUM Escola de Ciência. O trabalho se concentra na criação de um Algoritmo Genético a fim de maximizar o Band Gap e minimizar o calor de formação. O dataset utilizado foi retirado de um dados chamado (C2DB) de materiais 2D e contém propriedades estruturais, termodinâmicas, elásticas, eletrônicas, magnéticas e ópticas de cerca de 4.000 materiais bidimensionais distribuídos em mais de 40 estruturas cristalinas diferentes. Para montagem do dataset foram escolhidas algumas colunas do banco para sua formulação, como visto a seguir.
