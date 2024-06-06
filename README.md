@@ -46,3 +46,36 @@ Antes de implementar o algoritmo genético, dois modelos de machine learning uti
 <b><br> Funcionamento Código e Utilização <br></b>
 
 O código deste repositório emprega uma Algoritmo Genético utilizando o módulo DEAP. Nos notebooks fornecidos, há uma explicação detalhada do processo, abrangendo desde a criação dos modelos até a implemntação do algoritmo genético. As etapas do processo são descritas no notebook, fornecendo detalhes. Este repositório serve como um recurso valioso para aqueles que desejam entender e aplicar métodos de aprendizado de máquina para otimização em materiais 2D.
+
+<b><br>Bibliotecas<br></b>
+As Bibliotecas e funções usadas e necessárias para importação: Pandas, re, deap, matplotlib, numpy e sklearn .  
+
+<hr>
+
+<b>Documentos no Github<br></b>
+
+_C2DB_full.csv_: Dataset completo
+
+_dataset_tratado.csv_: Dataset tratado
+
+_tratamento_de_dados.ipynb_: Processo de tratamento do dataset
+
+_treinamento_da_rede_otimizacao_gpu.ip_: Implementação da rede neural
+
+_otimizacao_dos_hiperparametros.py_: Script de Otimizacao dos hiperparâmetros utilizando optuna
+
+_trials_job_1516.out_:Todos os trials testados pelo optuna
+
+_modelo_final.BG.p_: Este arquivo  contém os pesos e vieses da rede neural do modelo final treinado para prever o band gap
+
+
+<hr>
+<b><br>Conclusão<br></b>
+Após a otimização, nota-se que o conjunto ideal hiperparâmetros que se adapta a rede resultou em um Erro Quadrático Médio (RMSE) de aproximadamente 0.75. Dessa forma é possível concluir a rede em questão não é tão satisfatória, por o target necessitar de uma alta precisão nos resultados, indicando assim a necessidade de aprimoramentos adicionais na rede. 
+
+<hr>
+<b><br>Referências<br></b>
+
+[1] Banco de dados C2DB: https://cmr.fysik.dtu.dk/c2db/c2db.html#brief-description 
+
+[2] CASSAR, D. R. PyTorch Lightning. (2024)
