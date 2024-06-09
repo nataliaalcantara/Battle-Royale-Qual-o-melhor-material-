@@ -48,7 +48,7 @@ Antes de implementar o algoritmo genético, dois modelos de machine learning uti
 O código deste repositório emprega uma Algoritmo Genético utilizando o módulo DEAP. Nos notebooks fornecidos, há uma explicação detalhada do processo, abrangendo desde a criação dos modelos até a implemntação do algoritmo genético. As etapas do processo são descritas no notebook, fornecendo detalhes. Este repositório serve como um recurso valioso para aqueles que desejam entender e aplicar métodos de aprendizado de máquina para otimização em materiais 2D.
 
 <b><br>Bibliotecas<br></b>
-As Bibliotecas e funções usadas e necessárias para importação: Pandas, re, deap, matplotlib, numpy e sklearn .  
+As Bibliotecas e funções usadas e necessárias para importação: Pandas, matplotlib, numpy e sklearn .  
 
 <hr>
 
@@ -66,4 +66,4 @@ _C2DB_full.csv_: Dataset completo
 
 [1] Banco de dados C2DB: https://cmr.fysik.dtu.dk/c2db/c2db.html#brief-description 
 
-[2] CASSAR, D. R. PyTorch Lightning. (2024)
+[2] CASSAR, D. R. Floresta Aleatória (2023)
