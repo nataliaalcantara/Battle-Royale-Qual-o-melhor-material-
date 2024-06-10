@@ -6,9 +6,10 @@ _Grupo: Natália Alcantara, Samira Oliveira e Geovana Bettero_
 
 Este repositório trata-se de um trabalho final feito por três estudantes da ILUM Escola de Ciência. O trabalho se concentra na criação de um Algoritmo Genético com o objetivo de maximizar o Band Gap e minimizar o Calor de Formação. O dataset utilizado foi retirado de um dados chamado (C2DB) de materiais 2D e contém propriedades estruturais, termodinâmicas, elásticas, eletrônicas, magnéticas e ópticas de cerca de 4.000 materiais bidimensionais distribuídos em mais de 40 estruturas cristalinas diferentes. Para montagem do dataset foram escolhidas algumas colunas do banco para sua formulação, como visto a seguir.
 
-<hr>
+<l0>
 <b><br>Importância<br></b>
  Na engenharia de materiais e na indústria eletrônica determinar o comportamento de um material é de extrema importancia. Assim, conhecer o band gap  de um material é crucial para projetar novos materiais com propriedades específicas, como semicondutores para dispositivos eletrônicos. Desta forma, com algoritmos genéticos tornou-se possível maximizar ou minimizar dado objetivo com maior precisão e eficiência, facilitando o desenvolvimento de materiais com propriedades sob medida para diversas aplicações.
+ 
 
 <img src="https://cloud.squidex.io/api/assets/matmatch-cms/d96c504d-2d4b-40fd-9954-693d434344b0/screenshot-2020-05-05-at-16.04.35.png" alt="Imagem ilustrativa de um Band Gap" width="400"/>
     <p><i>Imagem ilustrativa de um Band Gap</i></p>
