@@ -10,7 +10,6 @@ Este repositório trata-se de um trabalho final feito por três estudantes da IL
 <b><br>Importância<br></b>
  Na engenharia de materiais e na indústria eletrônica determinar o comportamento de um material é de extrema importancia. Assim, conhecer o band gap  de um material é crucial para projetar novos materiais com propriedades específicas, como semicondutores para dispositivos eletrônicos. Desta forma, com algoritmos genéticos tornou-se possível maximizar ou minimizar dado objetivo com maior precisão e eficiência, facilitando o desenvolvimento de materiais com propriedades sob medida para diversas aplicações.
  
-
 <img src="https://cloud.squidex.io/api/assets/matmatch-cms/d96c504d-2d4b-40fd-9954-693d434344b0/screenshot-2020-05-05-at-16.04.35.png" alt="Imagem ilustrativa de um Band Gap" width="400"/>
     <p><i>Imagem ilustrativa de um Band Gap</i></p>
 <hr>
