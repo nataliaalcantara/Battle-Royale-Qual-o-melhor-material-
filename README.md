@@ -4,7 +4,7 @@
 
 _Grupo: Natália Alcantara, Samira Oliveira e Geovana Bettero_
 
-Este repositório representa o trabalho final desenvolvido por três estudantes da ILUM Escola de Ciência. O projeto tem como foco a criação de um Algoritmo Genético com o objetivo de maximizar o Band Gap e minimizar o Calor de Formação em materiais 2D. O dataset utilizado foi extraído do conjunto de dados (C2DB), que contém informações estruturais, termodinâmicas, elásticas, eletrônicas, magnéticas e ópticas de aproximadamente 4.000 materiais bidimensionais, abrangendo mais de 40 estruturas cristalinas diferentes.
+Este repositório trat-se do trabalho final desenvolvido por três estudantes da ILUM Escola de Ciência. O projeto tem como foco a criação de um Algoritmo Genético com o objetivo de maximizar o Band Gap e minimizar o Calor de Formação em materiais 2D. O dataset utilizado foi extraído do conjunto de dados (C2DB), que contém informações estruturais, termodinâmicas, elásticas, eletrônicas, magnéticas e ópticas de aproximadamente 4.000 materiais bidimensionais, abrangendo mais de 40 estruturas cristalinas diferentes.
 
 ---
 <b><br>Importância<br></b>
@@ -17,7 +17,7 @@ Na engenharia de materiais e na indústria eletrônica, compreender o comportame
 O objetivo deste projeto é identificar materiais bidimensionais (2D) com um maior band gap e um menor calor de formação. Utilizamos algoritmos genéticos para otimizar essas propriedades, permitindo a descoberta eficiente de materiais com as características desejáveis.
 
 <b><br>Informações sobre o Dataset<br></b>
-Neste trabalho, utilizamos um conjunto de dados que contém diversas propriedades dos materiais, essenciais para a compreensão e otimização de materiais bidimensionais (2D). As colunas relevantes para nosso estudo são:
+Neste trabalho, utilizamos um conjunto de dados que contém diversas propriedades dos materiais, essenciais para a compreensão e otimização de materiais bidimensionais (2D). As colunas relevantes para este estudo são:
 
 _Heat of formation(eV/atom):_<br> O calor de formação representa a quantidade de energia liberada ou absorvida durante a formação de um composto a partir de seus elementos constituintes. Essa medida é crucial para avaliar a estabilidade do material e sua capacidade de formar ligações químicas. Nosso objetivo é minimizá-la.
 
@@ -30,11 +30,11 @@ _Elementos presentes nos materiais do dataset:_<br> Esta coluna detalha os eleme
 
 <hr>
 <Sobre o projeto>
-Antes de implementarmos o algoritmo genético, exploramos duas abordagens de machine learning utilizando o algoritmo de Floresta Aleatória. Estes modelos foram desenvolvidos para prever o band gap e o calor de formação com base nos elementos químicos presentes nos materiais do dataset. Essa etapa foi crucial para identificar os materiais mais promissores com as características desejadas, fornecendo uma base sólida para a aplicação posterior do algoritmo genético na busca por soluções ótimas.
- 
+Antes de implementarmos o algoritmo genético, exploramos duas abordagens de machine learning utilizando o algoritmo de Floresta Aleatória. Estes modelos foram desenvolvidos para prever o band gap e o calor de formação com base nos elementos químicos presentes nos materiais do dataset. Essa etapa foi crucial para identificar os materiais mais promissores com as características desejadas, fornecendo uma base sólida para a aplicação posterior do algoritmo genético.
+    
 <b><br> Funcionamento Código e Utilização <br></b>
 
-Este repositório contém a implementação de um Algoritmo Genético utilizando Python puro. Nos notebooks disponíveis, você encontrará uma explicação detalhada de todo o processo, desde a criação dos modelos iniciais até a implementação do algoritmo genético em si. É importante destacar que para a implementação do algoritmo, utilizamos os operadores de seleção por roleta máxima, cruzamento ponto duplo e uma mutação "personalizada" para o problema específico em questão. Todas as etapas do processo são cuidadosamente descritas tanto nos notebooks quanto nos scripts do código, fornecendo detalhes completos sobre o funcionamento do algoritmo e sua utilização. Este repositório serve como um recurso valioso para aqueles que desejam compreender e aplicar métodos de aprendizado de máquina para otimização em materiais 2D.
+Este repositório contém a implementação de um Algoritmo Genético utilizando Python puro. Nos notebooks disponíveis, você encontrará uma explicação detalhada de todo o processo, desde a criação dos modelos iniciais até a implementação do algoritmo em si. É importante destacar que para a implementação, utilizamos os operadores de seleção por roleta máxima, cruzamento ponto duplo e uma mutação "personalizada" para o problema específico em questão. Todas as etapas do processo são descritas tanto nos notebooks quanto no script do código, fornecendo detalhes  sobre o funcionamento e sua utilização. Este repositório serve como um recurso valioso para aqueles que desejam compreender e aplicar métodos de aprendizado de máquina para otimização em materiais bidimensionais.
 
 <b><br>Bibliotecas<br></b>
 As Bibliotecas e funções usadas e necessárias para importação: Pandas, matplotlib, numpy e sklearn .  
