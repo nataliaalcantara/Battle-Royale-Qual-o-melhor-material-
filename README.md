@@ -15,7 +15,7 @@ Este repositório trata-se de um trabalho final feito por três estudantes da IL
 <hr>
 <b><br>Informações sobre o Dataset<br></b>
 O Dataset em questão possui os seguintes atributos:
-
+<s>
 _Heat of formation(eV/atom):_<br> O calor de formação é a quantidade de energia liberada ou absorvida quando um composto é formado a partir de seus elementos constituintes. Ele pode indicar a estabilidade do material e sua capacidade de formar ligações químicas. É o nosso alvo para minimização. 
 
 _Eletronegativity:_<br> A eletronegatividade é a tendência de um átomo de atrair elétrons para si mesmo quando está ligado a outro átomo, o que pode influenciar a polaridade das ligações químicas.
