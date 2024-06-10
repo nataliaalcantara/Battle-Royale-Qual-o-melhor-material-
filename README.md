@@ -4,47 +4,55 @@
 
 _Grupo: Natália Alcantara, Samira Oliveira e Geovana Bettero_
 
-Este repositório trata-se de um trabalho final feito por três estudantes da ILUM Escola de Ciência. O trabalho se concentra na criação de um Algoritmo Genético com o objetivo de maximizar o Band Gap e minimizar o Calor de Formação. O dataset utilizado foi retirado de um dados chamado (C2DB) de materiais 2D e contém propriedades estruturais, termodinâmicas, elásticas, eletrônicas, magnéticas e ópticas de cerca de 4.000 materiais bidimensionais distribuídos em mais de 40 estruturas cristalinas diferentes. Para montagem do dataset foram escolhidas algumas colunas do banco para sua formulação, como visto a seguir.
+Este repositório representa o trabalho final desenvolvido por três estudantes da ILUM Escola de Ciência. O projeto tem como foco a criação de um Algoritmo Genético com o objetivo de maximizar o Band Gap e minimizar o Calor de Formação em materiais 2D. O dataset utilizado foi extraído do conjunto de dados (C2DB), que contém informações estruturais, termodinâmicas, elásticas, eletrônicas, magnéticas e ópticas de aproximadamente 4.000 materiais bidimensionais, abrangendo mais de 40 estruturas cristalinas diferentes.
 
 ---
 <b><br>Importância<br></b>
- Na engenharia de materiais e na indústria eletrônica determinar o comportamento de um material é de extrema importancia. Assim, conhecer o band gap  de um material é crucial para projetar novos materiais com propriedades específicas, como semicondutores para dispositivos eletrônicos. Desta forma, com algoritmos genéticos tornou-se possível maximizar ou minimizar dado objetivo com maior precisão e eficiência, facilitando o desenvolvimento de materiais com propriedades sob medida para diversas aplicações.
- 
+Na engenharia de materiais e na indústria eletrônica, compreender o comportamento dos materiais é crucial. O conhecimento do band gap de um material é especialmente importante, pois é fundamental para o projeto de novos materiais com propriedades específicas, como semicondutores para dispositivos eletrônicos. Com a aplicação de algoritmos genéticos, agora é possível otimizar objetivos específicos, maximizando ou minimizando-os com maior precisão e eficiência. Isso facilita significativamente o desenvolvimento de materiais com propriedades personalizadas para uma ampla variedade de aplicações.
+
 <img src="https://cloud.squidex.io/api/assets/matmatch-cms/d96c504d-2d4b-40fd-9954-693d434344b0/screenshot-2020-05-05-at-16.04.35.png" alt="Imagem ilustrativa de um Band Gap" width="400"/>
     <p><i>Imagem ilustrativa de um Band Gap</i></p>
 <hr>
+<b><br>Objetivo do Projeto<br></b>
+O objetivo deste projeto é identificar materiais bidimensionais (2D) com um maior band gap e um menor calor de formação. Utilizamos algoritmos genéticos para otimizar essas propriedades, permitindo a descoberta eficiente de materiais com as características desejáveis.
+
 <b><br>Informações sobre o Dataset<br></b>
-O Dataset em questão possui os seguintes atributos:
+Neste trabalho, utilizamos um conjunto de dados que contém diversas propriedades dos materiais, essenciais para a compreensão e otimização de materiais bidimensionais (2D). As colunas relevantes para nosso estudo são:
 
-_Heat of formation(eV/atom):_<br> O calor de formação é a quantidade de energia liberada ou absorvida quando um composto é formado a partir de seus elementos constituintes. Ele pode indicar a estabilidade do material e sua capacidade de formar ligações químicas. É o nosso alvo para minimização. 
+_Heat of formation(eV/atom):_<br> O calor de formação representa a quantidade de energia liberada ou absorvida durante a formação de um composto a partir de seus elementos constituintes. Essa medida é crucial para avaliar a estabilidade do material e sua capacidade de formar ligações químicas. Nosso objetivo é minimizá-la.
 
-_Eletronegativity:_<br> A eletronegatividade é a tendência de um átomo de atrair elétrons para si mesmo quando está ligado a outro átomo, o que pode influenciar a polaridade das ligações químicas.
+_Eletronegativity:_<br> Este atributo indica a tendência de um átomo atrair elétrons para si mesmo quando está ligado a outro átomo, o que pode influenciar a polaridade das ligações químicas.
 
-_Band gap:_<br> O band gap é a energia necessária para excitar um elétron de um estado ligado para um estado não ligado (condução) e é o alvo de maximização.
+_Band gap:_<br>O band gap é a energia necessária para excitar um elétron de um estado ligado para um estado não ligado (estado de condução). Este é um dos principais focos de nossa otimização, buscando maximizar esse valor.
 
-_Elementos presentes nos materiais do dataset:_<br> Esses elementos parcionados podem ser utilizados para previsões de outros materiais 2D que não estão no dataset.
+_Elementos presentes nos materiais do dataset:_<br> Esta coluna detalha os elementos químicos presentes nos materiais contidos no conjunto de dados. Essa informação pode ser útil para prever propriedades de outros materiais 2D que ainda não estão incluídos no dataset.
+
 
 <hr>
 <Sobre o projeto>
-Antes de implementar o algoritmo genético, dois modelos de machine learning utilizando Floresta Aleatória foi utilizado para prever o band gap e o calor formação com base nos elementos parcionado dos materiais pertencentes do dataset, para que dessa forma, fosse possível o material mais propricio com as caracteristicas desejadas. 
-
+Antes de implementarmos o algoritmo genético, exploramos duas abordagens de machine learning utilizando o algoritmo de Floresta Aleatória. Estes modelos foram desenvolvidos para prever o band gap e o calor de formação com base nos elementos químicos presentes nos materiais do dataset. Essa etapa foi crucial para identificar os materiais mais promissores com as características desejadas, fornecendo uma base sólida para a aplicação posterior do algoritmo genético na busca por soluções ótimas.
+ 
 <b><br> Funcionamento Código e Utilização <br></b>
 
-O código deste repositório emprega uma Algoritmo Genético utilizando Python puro. Nos notebooks fornecidos, há uma explicação detalhada do processo, abrangendo desde a criação dos modelos até a implementação do algoritmo genético. Vale ressaltar que para implementação do algorimto utilizamos os operadores de seleção por roleta máxima, cruzamento ponto duplo e com uma mutação "personalizada" para o problema. As etapas do processo são descritas no notebook e no script do código, fornecendo os detalhes. Este repositório serve como um recurso valioso para aqueles que desejam entender e aplicar métodos de aprendizado de máquina para otimização em materiais 2D.
+Este repositório contém a implementação de um Algoritmo Genético utilizando Python puro. Nos notebooks disponíveis, você encontrará uma explicação detalhada de todo o processo, desde a criação dos modelos iniciais até a implementação do algoritmo genético em si. É importante destacar que para a implementação do algoritmo, utilizamos os operadores de seleção por roleta máxima, cruzamento ponto duplo e uma mutação "personalizada" para o problema específico em questão. Todas as etapas do processo são cuidadosamente descritas tanto nos notebooks quanto nos scripts do código, fornecendo detalhes completos sobre o funcionamento do algoritmo e sua utilização. Este repositório serve como um recurso valioso para aqueles que desejam compreender e aplicar métodos de aprendizado de máquina para otimização em materiais 2D.
 
 <b><br>Bibliotecas<br></b>
 As Bibliotecas e funções usadas e necessárias para importação: Pandas, matplotlib, numpy e sklearn .  
 
 <hr>
 
-<b>Documentos no Github<br></b>
+<b>Arquivos no Github<br></b>
 
-_C2DB_full.csv_: Dataset completo
+_C2DB_full.csv_: Este é o dataset completo que contém todas as informações necessárias para o projeto.
+
+ALGORITMO: Este arquivo Jupyter Notebook contém a implementação do algoritmo genético utilizado para a otimização.
+
+funcoes.py: : Este é um script Python que contém as funções essenciais para a execução do algoritmo genético. Inclui funcionalidades para a criação dos candidatos, população, genes, função objetivo, bem como as etapas de cruzamento e mutação.
 
 
 <hr>
 <b><br>Conclusão<br></b>
-Ao final, o algoritmo genético retornará um material 2D que atende os requisitos estabelecidos de maximização e minimização. 
+Ao término do processo, o algoritmo genético fornecerá como resultado um material 2D que satisfaz os critérios de maximização e minimização estabelecidos.
 
 <hr>
 <b><br>Referências<br></b>
