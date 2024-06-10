@@ -1,4 +1,4 @@
-# Trabalho-Algoritmo-Genetico-
+# Battle Royale: Qual o melhor material?
 
 ## Optimization of Band Gap and Heat of Formation
 _Grupo: Natália Alcantara, Samira Oliveira e Geovana Bettero_
