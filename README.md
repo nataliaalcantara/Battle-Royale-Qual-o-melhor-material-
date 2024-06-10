@@ -1,6 +1,7 @@
 # Battle Royale: Qual o melhor material?
 
-## Optimization of Band Gap and Heat of Formation
+## Otimização Band gap e Calor de Formação
+
 _Grupo: Natália Alcantara, Samira Oliveira e Geovana Bettero_
 
 Este repositório trata-se de um trabalho final feito por três estudantes da ILUM Escola de Ciência. O trabalho se concentra na criação de um Algoritmo Genético com o objetivo de maximizar o Band Gap e minimizar o Calor de Formação. O dataset utilizado foi retirado de um dados chamado (C2DB) de materiais 2D e contém propriedades estruturais, termodinâmicas, elásticas, eletrônicas, magnéticas e ópticas de cerca de 4.000 materiais bidimensionais distribuídos em mais de 40 estruturas cristalinas diferentes. Para montagem do dataset foram escolhidas algumas colunas do banco para sua formulação, como visto a seguir.
