@@ -6,7 +6,7 @@ _Grupo: Natália Alcantara, Samira Oliveira e Geovana Bettero_
 
 Este repositório trata-se de um trabalho final feito por três estudantes da ILUM Escola de Ciência. O trabalho se concentra na criação de um Algoritmo Genético com o objetivo de maximizar o Band Gap e minimizar o Calor de Formação. O dataset utilizado foi retirado de um dados chamado (C2DB) de materiais 2D e contém propriedades estruturais, termodinâmicas, elásticas, eletrônicas, magnéticas e ópticas de cerca de 4.000 materiais bidimensionais distribuídos em mais de 40 estruturas cristalinas diferentes. Para montagem do dataset foram escolhidas algumas colunas do banco para sua formulação, como visto a seguir.
 
-<hr>
+---
 <b><br>Importância<br></b>
  Na engenharia de materiais e na indústria eletrônica determinar o comportamento de um material é de extrema importancia. Assim, conhecer o band gap  de um material é crucial para projetar novos materiais com propriedades específicas, como semicondutores para dispositivos eletrônicos. Desta forma, com algoritmos genéticos tornou-se possível maximizar ou minimizar dado objetivo com maior precisão e eficiência, facilitando o desenvolvimento de materiais com propriedades sob medida para diversas aplicações.
  
@@ -15,7 +15,7 @@ Este repositório trata-se de um trabalho final feito por três estudantes da IL
 <hr>
 <b><br>Informações sobre o Dataset<br></b>
 O Dataset em questão possui os seguintes atributos:
-<s>
+
 _Heat of formation(eV/atom):_<br> O calor de formação é a quantidade de energia liberada ou absorvida quando um composto é formado a partir de seus elementos constituintes. Ele pode indicar a estabilidade do material e sua capacidade de formar ligações químicas. É o nosso alvo para minimização. 
 
 _Eletronegativity:_<br> A eletronegatividade é a tendência de um átomo de atrair elétrons para si mesmo quando está ligado a outro átomo, o que pode influenciar a polaridade das ligações químicas.
