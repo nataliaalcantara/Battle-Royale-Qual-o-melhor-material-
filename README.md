@@ -10,8 +10,8 @@ Este repositório trata-se de um trabalho final feito por três estudantes da IL
 <b><br>Importância<br></b>
  Na engenharia de materiais e na indústria eletrônica determinar o comportamento de um material é de extrema importancia. Assim, conhecer o band gap  de um material é crucial para projetar novos materiais com propriedades específicas, como semicondutores para dispositivos eletrônicos. Desta forma, com algoritmos genéticos tornou-se possível maximizar ou minimizar dado objetivo com maior precisão e eficiência, facilitando o desenvolvimento de materiais com propriedades sob medida para diversas aplicações.
 
+![>Imagem ilustrativa de um Band Gap](https://cdn1.byjus.com/wp-content/uploads/2023/02/What-are-Energy-Bands.png)
 
-<img src="[https://nirajchawake.wordpress.com/wp-content/uploads/2014/10/picture1.png" width="400](https://cdn1.byjus.com/wp-content/uploads/2023/02/What-are-Energy-Bands.png)">
     <p><i>Imagem ilustrativa de um Band Gap</i></p>
 
   
