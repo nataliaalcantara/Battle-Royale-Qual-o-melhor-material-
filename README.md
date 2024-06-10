@@ -44,7 +44,7 @@ _C2DB_full.csv_: Dataset completo
 
 <hr>
 <b><br>Conclusão<br></b>
-Ao final, o algoritmo genético retornará um material 2D que atende os requisitos estabelicidos de maximização e minimização. 
+Ao final, o algoritmo genético retornará um material 2D que atende os requisitos estabelecidos de maximização e minimização. 
 
 <hr>
 <b><br>Referências<br></b>
