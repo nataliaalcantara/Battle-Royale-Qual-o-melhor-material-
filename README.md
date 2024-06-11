@@ -49,7 +49,7 @@ dataset_C2DB.csv: Este é o dataset completo que contém todas as informações 
 
 NOME ALGORITMO: Este arquivo Jupyter Notebook contém a implementação do algoritmo genético utilizado para a otimização.
 
-funcoes.py: Este é um script Python que contém as funções essenciais para a execução do algoritmo genético. Inclui funcionalidades para a criação dos candidatos, população, genes, função objetivo, bem como as etapas de seleção, cruzamento e mutação.
+funcoes_ag.py: Este é um script Python que contém as funções essenciais para a execução do algoritmo genético. Inclui funcionalidades para a criação dos candidatos, população, genes, função objetivo, bem como as etapas de seleção, cruzamento e mutação.
 
 modelo_band_gap.ipynb: Este arquivo Jupyter Notebook contém a implementação do modelo de Floresta Aleatória para previsão do band gap.
 
