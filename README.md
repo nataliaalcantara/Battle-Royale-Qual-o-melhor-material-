@@ -47,7 +47,7 @@ As Bibliotecas e funções usadas e necessárias para importação: Pandas, nump
 
 dataset_C2DB.csv: Este é o dataset completo que contém todas as informações necessárias para o projeto.
 
-NOME ALGORITMO: Este arquivo Jupyter Notebook contém a implementação do algoritmo genético utilizado para a otimização.
+ag_bandg_calor.ipynb: Este arquivo Jupyter Notebook contém a implementação do algoritmo genético.
 
 funcoes_ag.py: Este é um script Python que contém as funções essenciais para a execução do algoritmo genético. Inclui funcionalidades para a criação dos candidatos, população, genes, função objetivo, bem como as etapas de seleção, cruzamento e mutação.
 
