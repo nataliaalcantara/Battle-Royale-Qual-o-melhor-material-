@@ -39,7 +39,7 @@ Antes de implementarmos o algoritmo genético, exploramos duas abordagens de mac
 Este repositório contém a implementação de um Algoritmo Genético utilizando Python puro. Nos notebooks disponíveis, você encontrará uma explicação detalhada de todo o processo, desde a criação dos modelos iniciais até a implementação do algoritmo em si. É importante destacar que para a implementação, utilizamos os operadores de seleção por roleta máxima, cruzamento ponto duplo e uma mutação "personalizada" para o problema específico em questão. Todas as etapas do processo são descritas tanto nos notebooks quanto no script do código, fornecendo detalhes  sobre o funcionamento e sua utilização. Este repositório serve como um recurso valioso para aqueles que desejam compreender e aplicar métodos de aprendizado de máquina para otimização em materiais bidimensionais.
 
 <b><br>Bibliotecas<br></b>
-As Bibliotecas e funções usadas e necessárias para importação: Pandas, matplotlib, numpy e sklearn .  
+As Bibliotecas e funções usadas e necessárias para importação: Pandas, numpy, sklearn, random e pickle.  
 
 <hr>
 
