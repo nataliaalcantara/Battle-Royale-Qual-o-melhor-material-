@@ -32,7 +32,7 @@ _Elementos presentes nos materiais do dataset:_<br> Esta coluna detalha os eleme
 <b><br>Sobre o projeto<br></b>
 
 
-Antes de implementarmos o algoritmo genético, exploramos duas abordagens de machine learning utilizando o algoritmo de Floresta Aleatória. Estes modelos foram desenvolvidos para prever o band gap e o calor de formação com base nos elementos químicos presentes nos materiais do dataset. Essa etapa foi crucial para identificar os materiais mais promissores com as características desejadas, fornecendo uma base sólida para a aplicação posterior do algoritmo genético.
+Antes de implementarmos o algoritmo genético, exploramos duas abordagens de machine learning utilizando o algoritmo de Floresta Aleatória. Estes modelos foram desenvolvidos para prever o band gap e o calor de formação com base nos elementos químicos presentes nos materiais do dataset, sendo implementados na função objetivo do problema. 
     
 <b><br> Funcionamento Código e Utilização <br></b>
 
