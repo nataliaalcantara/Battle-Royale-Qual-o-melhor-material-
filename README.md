@@ -4,7 +4,7 @@
 
 _Grupo: Natália Alcantara, Samira Oliveira e Geovana Bettero_
 
-Este repositório trat-se do trabalho final desenvolvido por três estudantes da ILUM Escola de Ciência. O projeto tem como foco a criação de um Algoritmo Genético com o objetivo de maximizar o Band Gap e minimizar o Calor de Formação em materiais 2D. O dataset utilizado foi extraído do conjunto de dados (C2DB), que contém informações estruturais, termodinâmicas, elásticas, eletrônicas, magnéticas e ópticas de aproximadamente 4.000 materiais bidimensionais, abrangendo mais de 40 estruturas cristalinas diferentes.
+Este repositório trata-se do trabalho final desenvolvido por três estudantes da ILUM Escola de Ciência. O projeto tem como foco a criação de um Algoritmo Genético com o objetivo de maximizar o Band Gap e minimizar o Calor de Formação em materiais 2D. O dataset utilizado foi extraído do conjunto de dados (C2DB), que contém informações estruturais, termodinâmicas, elásticas, eletrônicas, magnéticas e ópticas de aproximadamente 4.000 materiais bidimensionais, abrangendo mais de 40 estruturas cristalinas diferentes.
 
 ---
 <b><br>Importância<br></b>
